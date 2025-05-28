@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YogaApp.API", "YogaApp.API\YogaApp.API.csproj", "{9C026387-6496-48DC-8F0B-EB8D073D10BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YogaApp.Core", "YogaApp.Core\YogaApp.Core.csproj", "{7FAD9546-0895-4EB4-9B51-88D892A0CBAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YogaApp.Application", "YogaApp.Application\YogaApp.Application.csproj", "{1E857CAA-8675-4DD2-B2CF-A67180B65450}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YogaApp.Infrastructure", "YogaApp.Infrastructure\YogaApp.Infrastructure.csproj", "{13F6A6AD-396C-4C87-8DD7-20B26F3E6DB2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C026387-6496-48DC-8F0B-EB8D073D10BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C026387-6496-48DC-8F0B-EB8D073D10BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C026387-6496-48DC-8F0B-EB8D073D10BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C026387-6496-48DC-8F0B-EB8D073D10BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FAD9546-0895-4EB4-9B51-88D892A0CBAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FAD9546-0895-4EB4-9B51-88D892A0CBAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FAD9546-0895-4EB4-9B51-88D892A0CBAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FAD9546-0895-4EB4-9B51-88D892A0CBAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E857CAA-8675-4DD2-B2CF-A67180B65450}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E857CAA-8675-4DD2-B2CF-A67180B65450}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E857CAA-8675-4DD2-B2CF-A67180B65450}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E857CAA-8675-4DD2-B2CF-A67180B65450}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13F6A6AD-396C-4C87-8DD7-20B26F3E6DB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13F6A6AD-396C-4C87-8DD7-20B26F3E6DB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13F6A6AD-396C-4C87-8DD7-20B26F3E6DB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13F6A6AD-396C-4C87-8DD7-20B26F3E6DB2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

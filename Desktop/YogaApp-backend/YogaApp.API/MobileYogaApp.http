@@ -1,0 +1,45 @@
+@MobileYogaApp_HostAddress = http://localhost:5143
+
+GET {{MobileYogaApp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+POST https://localhost:7057/custom-workouts/create-custom-workout
+Content-Type: application/json
+
+{
+  "name": "Morning Energy Boost",
+  "difficulty": 1,
+  "duration": 25,
+  "caloriesBurned": 200,
+  "exercises": [
+    {
+      "imageUrl": "https://example.com/images/jumping-jacks.jpg",
+      "isLiked": true,
+      "name": "Jumping Jacks",
+      "duration": 60,
+      "description": "A full body warm-up exercise.",
+      "difficulty": 0
+    },
+    {
+      "imageUrl": "https://example.com/images/plank.jpg",
+      "isLiked": false,
+      "name": "Plank",
+      "duration": 90,
+      "description": "Strengthens the core.",
+      "difficulty": 1
+    }
+  ]
+}
+
+###
+
+POST https://localhost:7057/progress/calculate-bmi
+Content-Type: application/json
+
+{
+  "userId": "11111111-1111-1111-1111-111111111111",
+  "heightInMeters": 175,
+  "weight": 70
+}
