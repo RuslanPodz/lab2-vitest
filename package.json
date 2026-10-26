@@ -1,0 +1,17 @@
+{
+  "name": "lab2-vitest",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Лабораторна робота № 2. Модульне тестування бізнес-логіки засобами Vitest (варіант 11)",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^3.2.4",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4"
+  }
+}
